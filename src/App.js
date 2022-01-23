@@ -17,7 +17,7 @@ async function getUser(e) {
   };
   return (
     <div className="App">
-     <h1>Help Me</h1>
+     <h1>Bank API</h1>
      <form onSubmit={getUser}>
       <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
       <button type='submit'>send</button>
